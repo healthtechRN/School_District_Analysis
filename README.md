@@ -14,11 +14,11 @@
   - School performance based on the school size 
   - School performance based on the type of school
 
-## Resources
+### Resources
 - Data Source: (1) schools_complete.csv; (2) students_complete-csv
 - Software: pandas 1.3.4, Jupyter notebook 
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results
  - How is the district summary affected?
    - The district summary is unchanged after removing 9th grade math and reading scores for students at Thomas High School
    ![Distict Summary.txt](Resources/New_district_summary.png)
@@ -39,7 +39,7 @@
      - School size remains the same, as this value was not changed.
    - Scores by school type
      - School type remains the same, as this value was not changed.
-## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Summary: 
    - First change: Average Math score decreased from 83.4183% to 83.3509%
    - Second change: % Passing Math decreased from 93.2722% to 93.1857%
    - Third change: % Passing Reading decreased from 97.3089% to 97.0187%
